@@ -33,11 +33,11 @@ public enum PaymentStatus {
 
 class User{
 	int userId;
-	String name;
+	string name;
 	Date dateOfBirth;
-	String mobNo;
-	String emailId;
-	String sex;
+	string mobileNumber;
+	string emailId;
+	string sex;
 }
 
 // For the room in any hotel
@@ -50,7 +50,7 @@ class Room{
 
 class Hotel{
 	int hotelId;
-	String hotelName;
+	string hotelName;
 	Adress adress;
 	List<Room> rooms; 
 	float rating;
